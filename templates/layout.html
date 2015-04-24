@@ -51,7 +51,7 @@
 	<!-- concatenate and minify for production -->
 	<link href="static/css/reset.css" rel="stylesheet">
 	<link href="static/css/bootstrap.css" rel="stylesheet">
-	<link href="static/css/icons.css" rel="stylesheet">
+	<link href="static/css/flaticon.css" rel="stylesheet">
 	<link href="static/css/style.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	{% block css %}
@@ -104,13 +104,13 @@
 					        <div id="navbar" class="collapse navbar-collapse">
 					          <ul class="nav navbar-nav navbar-right">
 					            <li class="home"><a href="index.php">{{main_menu.home}}</a></li>
-					            <li class="about-us"><a href="about-us.php">{{main_menu.ted|raw}}</a></li>
-					            <li class="admissions"><a href="admissions-process-primary.php">{{main_menu.ponentes}}</a></li>
-					            <li class="student-life"><a href="students-life-events.php">{{main_menu.aliados}}</a></li>
-					            <li class="student-life"><a href="students-life-events.php">{{main_menu.media}}</a></li>
-					            <li class="student-life"><a href="students-life-events.php">{{main_menu.acerca}}</a></li>
-					            <li class="student-life"><a href="students-life-events.php">{{main_menu.contacto}}</a></li>
-					            <li class="student-life"><a href="students-life-events.php">{{main_menu.faqs}}</a></li>
+					            <li class="about-us"><a href="ted.php">{{main_menu.ted|raw}}</a></li>
+					            <li class="admissions"><a href="ponentes.php">{{main_menu.ponentes}}</a></li>
+					            <li class="student-life"><a href="aliados.php">{{main_menu.aliados}}</a></li>
+					            <li class="student-life"><a href="media.php">{{main_menu.media}}</a></li>
+					            <li class="student-life"><a href="acerca.php">{{main_menu.acerca}}</a></li>
+					            <li class="student-life"><a href="contacto.php">{{main_menu.contacto}}</a></li>
+					            <li class="student-life"><a href="faqs.php">{{main_menu.faqs}}</a></li>
 					            
 					          </ul>
 					          
@@ -119,24 +119,14 @@
 					      </div>
 					    </nav>
 					</div>
-					<div class="col-sm-4 pull-right col-lg-2 text-center col-lg-offset-1 header-contact">
+					<div class="col-sm-6 pull-right col-lg-4 text-center col-lg-offset-1 header-contact">
 						<div class="row">
-							<div class="col-sm-8 col-sm-offset-2">
-								<ul class="margin-top-15">
-								    <li class="dropdown">
-						              
-
-						            </li>
-								</ul>
-			                  	<hr>
-			                </div>	
-			                <div class="col-sm-10 col-sm-offset-1" style="margin-top:5px;">
-			                  	<!--<a href="mailto:primary@iasces.com" class="no-decoration"><span class="icon-envelope envelope-header red-color"></span></a>-->
+			                <div class="col-sm-8 pull-right" style="margin-top:10px; margin-bottom:25px;">
+			                  	<span>Contáctanos en:</span>
+			                  	<span class="flaticon-facebook29"></span>
+			                  	<span class="flaticon-instagram7"></span>
+			                  	<span class="flaticon-mail59"></span>
 			                  	
-			                </div>
-			                <div class="col-sm-8 col-sm-offset-2">
-			                	<hr>
-
 			                </div>
 						</div>
 					</div>
@@ -218,8 +208,13 @@
 	    				</div>
 	    				<hr class="footer-hr">
 	    				<div class="row">
-	    					<div class="col-sm-9 margin-left-40"><p>{{footer.all_rights|raw}}</p></div>
-	    					<div class="col-sm-3 text-center"><a href="" class="white-color"></a></div>
+	    					<div class="col-sm-7 margin-left-40"><p>{{footer.all_rights|raw}}</p></div>
+	    					<div class="col-sm-3 text-center">
+	    						<span>Contáctanos en:</span>
+	    					  	<span class="flaticon-facebook29"></span>
+			                  	<span class="flaticon-instagram7"></span>
+			                  	<span class="flaticon-mail59"></span>
+			                 </div>
 	    				</div>
 	    				
 
@@ -244,23 +239,6 @@
 <script src="static/js/functions.js"></script>
 {% block js %}
 {% endblock  %}
-<!-- Asynchronous google analytics; this is the official snippet.
-	 Replace UA-XXXXXX-XX with your site's ID and uncomment to enable.
-	 
-<script>
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-XXXXXX-XX']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
--->
   
 </body>
 </html>

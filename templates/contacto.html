@@ -1,0 +1,97 @@
+{% extends "layout.html" %}
+{% block slider %}
+  <!-- Indicators -->
+  {# <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+  </ol> #}
+  <!-- Wrapper for slides -->
+  <div id="carousel-home" class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="static/img/Contacto/banner.jpg" alt=" Caption 1">
+      <div class="carousel-caption">
+       <!-- <h3 >LOREM IPSUM </h3>-->
+        
+      </div>
+    </div>
+   
+  </div>
+{% endblock  %}
+
+
+{% block content %}
+    <div class="row">
+      <div class="col-sm-12 page-title text-center">
+        <!--<h2>{{page.title}}</h2>-->
+      </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-sm-8 col-sm-offset">
+          <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 text-center formulario-izquierdo">
+                <form action = "mailing.php" method = "POST" role="form" class="form" id="form">
+              <div class="form-group">
+                <label class="col-md-4" for="form-nombre">Nombre</label>
+                <div class="col-md-8">
+                  <input type="text"required name="nombre" class="form-control without-borders" id="form-nombre">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-md-4" for="form-email">Apellidos</label>
+                <div class="col-md-8">
+                  <input type="email" required name="email" class="form-control without-borders" id="form-email" >
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-md-4" for="form-tel">E-mail</label>
+                <div class="col-md-8">
+                  <input type="text" required name="telefono" class="form-control without-borders" id="form-tel">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-md-4" for="form-asunto">¿A qué te dedicas?</label>
+                <div class="col-md-8">
+                  <input type="text" required name="asunto" class="form-control without-borders" id="form-asunto">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-md-4" for="form-interesado">Interesado en:</label>
+                <div class="col-md-8">
+                  <input type="text" required name="interesado" class="form-control without-borders" id="form-interesado">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-md-4" for="form-mensaje">Mensaje</label>
+                <div class="col-md-8">
+                  <textarea name="mensaje" class="form-control without-borders" id="form-mensaje" rows="3"></textarea>
+                </div>
+              </div>
+               <input class = "newsletter-input open-sans px12" type="hidden" class="form-control" id="newsletter" required name="tipo" value="contacto">
+
+              <button type="submit" class="btn-enviar background4 "><span class=" montserrat">Enviar</span> <span class="icon-circle-right vertical-aling"></span></button>
+
+              <span id="response"></span>
+
+            </form>
+            </div>
+          </div>
+          
+        </div><!-- /.col-lg-4 -->
+        <div class="col-sm-4 text-center borde-f-d">
+           <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 text-center formulario-derecho">
+                <p class="flaticon-facebook29"> /TEDxCancun</p>
+                <p class="flaticon-instagram7"> @TEDxCancun</p>
+            </div>
+          </div>
+        </div><!-- /.col-lg-4 -->
+    </div>   
+{% endblock %}
+{% block js %}
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+    $("li.home").addClass("active");
+  });
+</script>
+{% endblock  %}

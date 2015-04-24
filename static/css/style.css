@@ -180,7 +180,7 @@ yellow = #F6FF01
 
 .navbar-default .navbar-nav > li > a:hover ,.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus,.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
     background: transparent;
-    color: #F6FF01;
+    color: #fff;
 }
 
 .navbar-nav > li > .dropdown-menu{
@@ -462,6 +462,15 @@ margin-left: 10px;
     font-size: 20px;
     
 }
+.borde-f-d{border-left: none;
+    height: auto!important;
+  margin-top: 5px;}
+
+
+.formulario-derecho{margin-top: 0px!important;}
+
+.btn-enviar{margin-top: 70px!important;}
+
 
 }
 

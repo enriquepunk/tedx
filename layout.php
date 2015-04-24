@@ -40,7 +40,7 @@ $footer_en=array(
     'privacy'=>'Privacy Note',
     );
 $footer_es=array(
-    'all_rights'=>'Todos los Derechos Reservados TED<sup>x</sup>',
+    'all_rights'=>'Todos los Derechos &reg; Reservados TED<sup>x</sup>',
     'privacy'=>'Politicas de privaciadad',
     );
 

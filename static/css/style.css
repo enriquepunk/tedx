@@ -147,6 +147,10 @@ yellow = #F6FF01
     margin: 15px;
 }
 
+.margin-15-0{
+    margin: 15px 0;
+}
+
 .margin-25{
     margin: 25px;
 }

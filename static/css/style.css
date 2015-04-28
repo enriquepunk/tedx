@@ -52,10 +52,16 @@ hr{
     border-color: #ACACAC;
     margin: 0;
 }
-h2,h3,h4,li{
+h1,h2,h3,h4{
     font-family: 'Montserrat', sans-serif;
-    color:#5b5b5b;
+    color:#fc0e0b;
 }
+
+li{
+    font-family: 'Montserrat', sans-serif;
+color:#5b5b5b;
+}
+
 h2{
     font-size: 20px;
     font-weight: bold;
@@ -101,6 +107,10 @@ yellow = #F6FF01
 }
 .white-bg{
     background-color:#fff;
+}
+
+.gray-bg{
+    background-color:#efefef;
 }
 
 .black-bg{background-color: #000000;}

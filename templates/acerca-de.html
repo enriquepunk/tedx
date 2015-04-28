@@ -1,0 +1,53 @@
+{% extends "layout.html" %}
+{% block slider %}
+  <!-- Indicators -->
+  {#<ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+  </ol>#}
+  <!-- Wrapper for slides -->
+  <div id="carousel-home" class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="static/img/Acerca-de/banner.jpg" alt=" Caption 1">
+      <div class="carousel-caption">
+       <!-- <h3 >LOREM IPSUM </h3>-->
+      </div>
+    </div>
+   
+  </div>
+{% endblock  %}
+
+
+{% block content %}
+    <div class="row">
+      <div class="col-sm-12 page-title text-center white-bg">
+        <h1 clas="montserrat bold">Acerca de</h1>
+      </div>
+      <div class="col-sm-10 col-sm-offset-1 page-title text-center white-bg">
+        <p class="montserrat text-justify">Detrás de TEDxCancún está el trabajo voluntario de un colectivo de emprendedores sociales locales, comprometidos con el desarrollo de Cancún e interesados en aportar a nuestro crecimiento, bienestar y proyección como comunidad. TEDxCancún es un evento sin fines de lucro, ¿quieres unirte como voluntario? ¡Contáctanos!
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 page-title text-center white-bg">
+        <h1 clas="montserrat bold">El equipo</h1>
+      </div>
+      <div class="col-sm-10 col-sm-offset-1 page-title text-center white-bg">
+        <p class="montserrat text-center">Mónica Alba – Licensee</p>
+        <p class="montserrat text-center">Maru Arreola – Event Manager</p>
+        <p class="montserrat text-center">Lyn Ohala – Logistics Manager</p>
+        <p class="montserrat text-center">Ángela Paredes – Media + Contents Manager</p>
+        <p class="montserrat text-center">Elisa López – Speaker Manager</p>
+        <p class="montserrat text-center">Carlos Segura – Volunteer Coordinator</p>
+        <p class="montserrat text-center">Alberto Enríquez – Web + Design Manager</p>
+      </div>
+    </div>
+   
+{% endblock %}
+{% block js %}
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+    $("li.home").addClass("active");
+  });
+</script>
+{% endblock  %}

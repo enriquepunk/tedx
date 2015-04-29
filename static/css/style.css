@@ -85,6 +85,7 @@ span, #footer a,.footer-menu p,#footer p{
 a.no-decoration,a.no-decoration:hover{
     text-decoration: none;
 }
+.bold{font-weight: bold;}
 /*colors
 red =  #e71f25
 blue = #22a7df
@@ -94,7 +95,7 @@ yellow = #F6FF01
     font-size: 20px;
 }
 .red-color{
-    color: #e71f25;
+    color: #fc0e0b;
 }
 .blue-color{
     color: #22a7df;

@@ -172,11 +172,17 @@ yellow = #F6FF01
 
 .margin-left-40{
     margin-left: 40px;
-
 }
+
+
+.margin-top-30{margin-top: 30px;}
+.margin-bottom-30{margin-bottom: 30px;}
 .border-blue{
     border: 3px solid #22a7df;
 }
+
+.dash{border-top:2px dashed}
+
 .border-red{
     border: 3px solid #e71f25;
 }
@@ -506,6 +512,7 @@ margin-left: 10px;
     .left-side {vertical-align: top;float: none;display: table-cell;}
     .right-side {float: none;    display: table-cell;}
     .body {display: table;   }
+    .logo{  margin-top: 70px;}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -524,6 +531,7 @@ margin-left: 10px;
     .left-side {vertical-align: top;float: none;display: table-cell;}
     .right-side {float: none;    display: table-cell;}
     .body {display: table;   }
+    .logo{  margin-top: 70px;}
 }
 
 @media (min-width: 1200px) {

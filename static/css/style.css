@@ -715,3 +715,53 @@ padding-bottom: 15px;}
   height: 300px;
 height: 400px;
   margin-top: 30px;}
+
+  aside.widget.widget_recent_entries, aside.widget.widget_archive {
+  background-color: #efefef;
+  padding: 20px;
+}
+
+.blog-content{padding:25px;}
+img.attachment-post-thumbnail.wp-post-image {
+  width: 100%;
+  height: 100%;
+}
+
+.entry-content p {
+  padding: 0 15px;
+}
+
+.widget_archive ul {
+
+  margin-left: 15px;
+}
+
+.widget_archive  li:before {
+  color: red;
+  content: "\b7";
+  height: 5px;
+  font-size: 17px;
+  margin-right: 10px;}
+
+  li:after{margin-top: -10px;}
+
+#dentro .linea-blog{display: none;}
+
+div#sidebar {
+  margin-top: 65px;
+}
+
+.widget_archive  li a, .widget_recent_entries li a {
+font-family: 'Montserrat', sans-serif;
+color:#5b5b5b; }
+
+.widget_archive  li a:hover, .widget_recent_entries li a:hover{text-decoration: none}
+
+.more-link{
+	font-family: 'Montserrat', sans-serif;
+color:#fc0e0b}
+.more-link:hover, .entry-title a:hover{color:#fc0e0b; text-decoration: none}
+
+.regresar.boton a{font-family: 'Montserrat', sans-serif;
+color:#fc0e0b}
+.regresar.boton a:hover{color:#fc0e0b; text-decoration: none}

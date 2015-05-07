@@ -25,7 +25,7 @@ $main_menu_en=array(
     );
 $main_menu_es=array(
     'home'=>'INICIO',
-    'ted'=>'TED<sup>x</sup>',
+    'ted'=>'TED<sup>x</sup> CANCÚN',
     'ponentes'=>'PONENTES',
     'aliados'=>'ALIADOS',
     'media'=>'MEDIA/PRENSA',
@@ -41,7 +41,7 @@ $footer_en=array(
     );
 $footer_es=array(
     'all_rights'=>'Todos los Derechos &reg; Reservados TED<sup>x</sup>',
-    'privacy'=>'Politicas de privaciadad',
+    'privacy'=>'Políticas de privaciadad',
     );
 
 //if (LANG=='ES'){

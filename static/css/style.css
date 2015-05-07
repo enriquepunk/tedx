@@ -138,6 +138,10 @@ yellow = #F6FF01
             
 }
 
+.borde-rojo-bottom{
+    border-bottom: 2px solid red;
+}
+
 .no-hover:hover{text-decoration: none;
 color:#fc0e0b }
 
@@ -166,6 +170,11 @@ color:#fc0e0b }
 .margin-15-0{
     margin: 15px 0;
 }
+
+.margin-25-0{
+    margin: 25px 0;
+}
+
 
 .margin-25{
     margin: 25px;
@@ -197,12 +206,12 @@ color:#fc0e0b }
 }
 .navbar-default{
   border:none;
-  border-bottom: 2px solid red;}
+}
 
 .navbar-default .navbar-nav > li > a,.navbar-default .navbar-nav > li > a:focus,.dropdown-menu > li > a{
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .navbar-default .navbar-nav > li > a:hover ,.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus,.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
@@ -811,7 +820,7 @@ margin-top: 10px;
 
   text-shadow: none;}
 
-.boton-home h2{margin: 15px 0;font-size: 28px}
+.boton-home h2{margin: 15px 0;font-size: 20px}
 
 .linea-punteada-home{
     padding:0 50px;
@@ -821,3 +830,5 @@ margin-top: 10px;
 }
 
 .boton-home:hover{background-color: #fff;color:#fc0e0b!important;}
+
+.padding-30{padding: 30px;}

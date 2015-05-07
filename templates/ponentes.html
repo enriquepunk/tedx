@@ -9,9 +9,9 @@
   <div id="carousel-home" class="carousel-inner" role="listbox">
     <div class="item active">
       <img src="static/img/Ponentes/banner.jpg" alt=" Caption 1">
-      <div class="carousel-caption">
-       <h3 >PARTICIPA COMO PONENTE</h3>
-      </div>
+      <a href="#"><div class="carousel-caption boton-home">
+       <h2 class="bold" style="margin-top:-5px;">PARTICIPA COMO PONENTE</h2>
+      </div></a>
     </div>
    
   </div>
@@ -51,7 +51,7 @@
         <p class="montserrat text-justify">
         Tu idea deberá reflejar un planteamiento acorde al tema del evento <b>TEDxCancún</b>, y no deberá incluir contenido: promocional, afiliado a algún partido político u organización religiosa, discriminatorio, que incite a la violencia o que presente proyectos profesionales personales. La idea deberá perdurar en la mente de los asistentes, aportar algo a su vida y generar un impacto positivo en la sociedad de Cancún. </p>
         <p class="montserrat text-justify">
-        Las aplicaciones estarán abiertas hasta el 25 de mayo. No serán válidas las propuestas recibidas en días posteriores al cierre de la convocatoria. El envío de tu propuesta no asegura tu presencia como ponente o asistencia al evento. De resultar seleccionado recibirás una notificación y los detalles de tu participación a tu dirección de correo electrónico. Adicionalmente, los resultados serán publicados en nuestra página oficial <b>www.tedxcancun.com</b> </p>
+        Las aplicaciones estarán abiertas hasta el <b>25 de mayo.</b> No serán válidas las propuestas recibidas en días posteriores al cierre de la convocatoria. El envío de tu propuesta no asegura tu presencia como ponente o asistencia al evento. De resultar seleccionado recibirás una notificación y los detalles de tu participación a tu dirección de correo electrónico. Adicionalmente, los resultados serán publicados en nuestra página oficial <b>www.tedxcancun.com</b> </p>
 
         <p class="montserrat text-justify"><span class="red-color bold">¿Quiénes integran el comité TEDxCancún?</span><br>
         El comité organizador de <b>TEDxCancún</b> está integrado por un grupo de ciudadanos residentes en la zona, quienes cumplieron uno a uno los requisitos para obtener la <b>licencia TEDx</b>. Cada integrante del comité desempeña una función específica siguiendo un esquema sugerido por el licenciatario.</p>
@@ -71,10 +71,13 @@
 
 
     <div class="row">
+      <div class="col-sm-12 page-title text-center white-bg linea-punteada-home">
+        <hr class="col-sm-12 dash margin-top-30 margin-bottom-30">
+      </div>
       <div class="col-sm-12 page-title text-center white-bg">
         <h1 clas="montserrat bold">Aplica como ponente</h1>
       </div>
-      <div class="col-sm-10 col-sm-offset-1 page-title text-center white-bg">
+      <div class="col-sm-10 col-sm-offset-1 page-title text-center white-bg margin-bottom-30">
         <p class="montserrat text-left red-color"><b>QUEREMOS CONOCERTE</b></p>
             <form action = "mailing.php" method = "POST" role="form" class="form" id="form">
               <div class="form-group">
@@ -162,7 +165,8 @@
                   <textarea name="experiencia" class="form-control without-borders" id="form-experiencia" rows="3"></textarea>
                 </div>
               </div><br>
-              <hr class="col-sm-12 dash margin-top-30 margin-bottom-30">
+
+              <hr class="col-sm-12 dash margin-top-30 margin-bottom-30" style="width:97%;">
 
               
               <p class="montserrat text-left red-color">TU IDEA</p>
@@ -200,7 +204,7 @@
                 </div>
               </div>
 
-              <button type="submit" class="btn-enviar background4 "><span class=" montserrat">Enviar</span> <span class="icon-circle-right vertical-aling"></span></button>
+              <button type="submit" class="btn-enviar background4 ">Enviar</button>
 
               <span id="response"></span>
 

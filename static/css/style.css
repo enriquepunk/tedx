@@ -52,7 +52,7 @@ hr{
     border-color: #ACACAC;
     margin: 0;
 }
-h1,h2,h3,h4{
+h1,h3,h4{
     font-family: 'Montserrat', sans-serif;
     color:#fc0e0b;
 }
@@ -137,6 +137,9 @@ yellow = #F6FF01
             color: #F6FF01!important;
             
 }
+
+.no-hover:hover{text-decoration: none;
+color:#fc0e0b }
 
 
 .main-title{
@@ -346,11 +349,10 @@ border: 2px solid #e71f25;
   left: 36%;
   /* width: 40%; */
   /* bottom: auto; */
-  color: #fff;
+
   width: 28%;
   height: 85px;
-  background-color: #fc0e0b;
-  border-radius: 5px;
+
   top: 40%;
 }
 #carousel-home .carousel-caption h3{
@@ -679,12 +681,19 @@ margin-left: 10px;
   float: right;
   color: #fff;
   font-size: 17px;
-  background: #ff0000;
+  background: #fc0e0b;
   margin-top: 10px;
   margin-bottom: 10px;
   font-weight: bold;
   margin-right: 15px;
-border:none;}
+  border:none;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;}
+
+  .btn-enviar:hover{
+    background-color: #fff;
+    color:#fc0e0b;
+  }
 
 
 .formulario{padding-top: 15px;
@@ -787,15 +796,28 @@ color:#fc0e0b}
 
 .img-grande-home h1{font-size: 30px;
 color: #fff;
-font-family: 'Montserrat', sans-serif;}
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;}
 
 .boton-home{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 28px;
-    color: #fff;
+    color: #fff!important;
     background-color:#fc0e0b;
     border-radius: 10px;
-margin-top: 10px;}
+margin-top: 10px;
 
-    .boton-home h2{color: #fff;margin: 15px 0;}
+
+  text-shadow: none;}
+
+.boton-home h2{margin: 15px 0;font-size: 28px}
+
+.linea-punteada-home{
+    padding:0 50px;
+}
+.linea-punteada-home .dash{
+    width: 97%;
+}
+
+.boton-home:hover{background-color: #fff;color:#fc0e0b!important;}

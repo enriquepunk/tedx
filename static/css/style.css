@@ -82,7 +82,7 @@ p{
 span, #footer a,.footer-menu p,#footer p{
     font-family: 'Montserrat', sans-serif;
     color: #fff;
-    font-size: 14px;
+    font-size: 13px;
 }
 a.no-decoration,a.no-decoration:hover{
     text-decoration: none;
@@ -141,6 +141,8 @@ yellow = #F6FF01
 .borde-rojo-bottom{
     border-bottom: 2px solid red;
 }
+
+.red-bordered{border:1px solid #fc0e0b;}
 
 .no-hover:hover{text-decoration: none;
 color:#fc0e0b }
@@ -695,7 +697,6 @@ margin-left: 10px;
   margin-bottom: 10px;
   font-weight: bold;
   margin-right: 15px;
-  border:none;
   border-radius: 5px;
   font-family: 'Montserrat', sans-serif;}
 
@@ -731,7 +732,7 @@ padding-bottom: 15px;}
   font-weight: normal;
 }
 
-.form-group input, .form-group textarea {
+.form-group input, .form-group textarea, .form-group select{
   border:none;
   background-color: #eaeaea;
   border-radius: 0;

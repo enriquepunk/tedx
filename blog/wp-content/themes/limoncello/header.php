@@ -14,7 +14,7 @@
 	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	
-	<title>TEDx</title>
+	<title>TED<sup>x</sup></title>
 	
 	<meta name="title" content="" />
 	<meta name="description" content="" />
@@ -37,12 +37,12 @@
 
 
 	<!-- Iconifier might be helpful for generating favicons and touch icons: http://iconifier.net -->
-	<link rel="shortcut icon" href="../_/img/favicon.ico" />
+	<link rel="shortcut icon" href="_/img/favicon.ico" />
 	<!-- This is the traditional favicon.
 		 - size: 16x16 or 32x32
 		 - transparency is OK -->
 		 
-	<link rel="apple-touch-icon" href="../_/img/apple-touch-icon.png" />
+	<link rel="apple-touch-icon" href="_/img/apple-touch-icon.png" />
 	<!-- The is the icon for iOS's Web Clip and other things.
 		 - size: 57x57 for older iPhones, 72x72 for iPads, 114x114 for retina display (IMHO, just go ahead and use the biggest one)
 		 - To prevent iOS from applying its styles to the icon name it thusly: apple-touch-icon-precomposed.png
@@ -57,7 +57,7 @@
 
 	<!-- This is an un-minified, complete version of Modernizr. 
 		 Before you move to production, you should generate a custom build that only has the detects you need. -->
-	<script src="../static/js/modernizr-2.8.3.dev.js"></script>
+	<script src="static/js/modernizr-2.8.3.dev.js"></script>
 	
 	<!-- Application-specific meta tags -->
 	<!-- Windows 8 -->
@@ -84,11 +84,11 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-3 text-center logo"> 
-						<a href="index.php"><img class="margin-15-0 img-responsive" src="../static/img/General/logo.png" width="122" alt="TEDx"></a>
+						<a href="../index.php"><img class="margin-25-0 img-responsive" src="../static/img/General/logo.png" width="122" alt="International American School of Cancún"></a>
 					</div>
 					<div class="col-sm-9 text-center margin-top-10">
 						<nav class="navbar  navbar-default black-bg">
-					      <div class="">
+					      <div class="borde-rojo-bottom">
 					        <div class="navbar-header ">
 					          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 					            <span class="sr-only">Toggle navigation</span>
@@ -101,14 +101,14 @@
 					        </div>
 					        <div id="navbar" class="collapse navbar-collapse">
 					          <ul class="nav navbar-nav navbar-right">
-					            <li class="home"><a href="index.php">INICIO</a></li>
-					            <li class="about-us"><a href="tedx.php">TED<sup>X</sup></a></li>
-					            <li class="admissions"><a href="ponentes.php">PONENTES</a></li>
-					            <li class="student-life"><a href="aliados.php">ALIADOS</a></li>
-					            <li class="student-life"><a href="#">MEDIA/PRENSA</a></li>
-					            <li class="student-life"><a href="acerca-de.php">ACERCA DE</a></li>
-					            <li class="student-life"><a href="contacto.php">CONTACTO</a></li>
-					            <li class="student-life"><a href="faqs.php">FAQS</a></li>
+					            <li class="home"><a href="../index.php">INICIO</a></li>
+					            <li class="about-us"><a href="../tedx.php">TED<sup>X</sup></a></li>
+					            <li class="admissions"><a href="../ponentes.php">PONENTES</a></li>
+					            <li class="student-life"><a href="../aliados.php">ALIADOS</a></li>
+					            <li class="student-life"><a href="index.php">MEDIA/PRENSA</a></li>
+					            <li class="student-life"><a href="../acerca-de.php">ACERCA DE</a></li>
+					            <li class="student-life"><a href="../contacto.php">CONTACTO</a></li>
+					            <li class="student-life"><a href="../faqs.php">FAQS</a></li>
 					            
 					          </ul>
 					          
@@ -117,7 +117,7 @@
 					      </div>
 					    </nav>
 					</div>
-					<div class="col-sm-6 pull-right col-lg-4 text-center col-lg-offset-1 header-contact">
+					<div class="col-sm-6 col-xs-12 pull-right col-lg-4 text-center col-lg-offset-1 header-contact">
 						<div class="row">
 			                <div class="col-sm-9 col-xs-12 pull-right" style="margin-top:10px; margin-bottom:25px;">
 			                  	<span class="bold">Contáctanos en:</span>
